@@ -1,0 +1,272 @@
+.main{
+    background: rgb(0,255,254);
+    background: linear-gradient(90deg, rgba(0,255,254,0.7581232322030375) 14%, 
+  rgba(0,0,0,1) 50%, #dc06eca6 89%);
+    display: flex;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.clock{
+    background-color: blue;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position:absolute;
+}
+.dot{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:15px;
+    height: 15px;
+    border-radius: 100%;
+    position:absolute;
+    background-color:red;
+}
+#hour-hand{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 125px;
+    left: 0;
+    right: 0;
+    width: 6px;
+    height: 130px;
+    position:absolute;
+    background-color: black;
+    -webkit-transform-origin: bottom;
+
+}
+#min-hand{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 165px;
+    left: 0;
+    right: 0;
+    width: 4px;
+    height: 170px;
+    position:absolute;
+    background-color:white;
+    -webkit-transform-origin: bottom;
+
+}
+#sec-hand{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 195px;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 200px;
+    position:absolute;
+    background-color:red;
+    -webkit-transform-origin: bottom;
+   
+}
+#eleven{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom:400px;
+    left: 108px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#ten{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 200px;
+    left: 27px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#twelve{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: #fff;
+}
+#six{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: #fff;
+}
+#nine{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: #fff;
+}
+#eight{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 200px;
+    bottom:0;
+    left: 27px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#seven{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 400px;
+    bottom:0;
+    left: 118px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#three{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#one{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 400px;
+    right: 95px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#two{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    bottom: 220px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#four{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 220px;
+    bottom: 0;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#five{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 400px;
+    bottom: 0;
+    right: 104px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    color: white;
+}
+#digital{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 70px;
+    height: 30px;
+    position:absolute;
+    color: cyan;
+    z-index: 10;
+}
+h1{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    color:#C71585;
+    z-index: 10;
+}
+.glow {
+
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+    from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px
+     #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px 
+    #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+    }
