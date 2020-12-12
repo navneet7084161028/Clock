@@ -23,6 +23,19 @@
     border-radius: 100%;
     position:absolute;
 }
+.text1{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    color: white;
+    bottom: 265px;
+    left: 60px;
+    right: 0;
+    width:100px;
+    height: 25px;
+    position:absolute;   
+}
 .dot{
     display: flex;
     overflow: hidden;
